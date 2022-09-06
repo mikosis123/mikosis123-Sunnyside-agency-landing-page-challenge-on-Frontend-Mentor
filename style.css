@@ -212,7 +212,7 @@
         
         .creative-abck {
             background-image: url(./images/mobile/image-header.jpg);
-            height: 580px;
+            height: 100vh;
             width: 100%;
             background-position: center;
             background-size: cover;
@@ -240,6 +240,11 @@
         
         .trancform {
             text-align: center;
+        }
+        
+        p {
+            font-size: larger;
+            font-family: 'Barlow', sans-serif;
         }
         
         .stand_out,
@@ -284,6 +289,7 @@
             background-color: hsl(51, 100%, 49%);
             padding-top: -30px;
             margin-top: 30px;
+            margin-bottom: 65px;
             border-radius: 30px;
             border: none;
         }
@@ -301,9 +307,8 @@
         
         .standout {
             background-image: url(./images/mobile/image-stand-out.jpg);
-            min-height: 310px;
+            min-height: 604px;
             width: 100%;
-            margin-top: 65px;
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -328,6 +333,9 @@
             padding-top: 402px;
         }
         
+        .geraphicD p,
+        .photoG p {}
+        
         .photoG {
             background-image: url(./images/mobile/image-photography.jpg);
             min-height: 600px;
@@ -349,7 +357,6 @@
             color: hsl(232, 10%, 55%);
             gap: 15px;
             padding-top: 163px;
-            /* padding-bottom: 82px; */
         }
         
         .imgg {
@@ -433,12 +440,17 @@
             color: hsl(212, 27%, 19%);
         }
         
+        .naming_shade {
+            color: hsl(210, 4%, 67%);
+        }
+        
         @media(min-width:920px) {
             .trancform {
                 text-align: unset;
             }
             .stand_out {
                 text-align: unset;
+                width: 50%;
             }
             .stand_out,
             .egg-back p {
@@ -473,15 +485,11 @@
                 background-size: cover;
                 background-repeat: no-repeat;
             }
-            .eggimg img {
-                /* width: 50%; */
+            .standout img {
                 width: 720px;
             }
             .standout {
-                min-height: 600px;
-            }
-            .standout {
-                /* height: 310px; */
+                min-height: 604px;
                 width: 50%;
                 background-position: center;
                 background-size: cover;
@@ -490,7 +498,7 @@
             }
             .stand_out {
                 align-items: center;
-                width: 50%;
+                max-width: 50%;
                 padding-left: 110px;
                 padding-right: 100px;
             }
@@ -515,11 +523,8 @@
                 background-repeat: no-repeat;
             }
             .increaser {
-                /* margin: 450px 196px 61px; */
                 padding-left: 180px;
                 padding-right: 180px;
-                /* max-block-size: 336px; */
-                /* padding-bottom: 66px; */
                 align-items: center;
                 font-family: 'Barlow', sans-serif;
                 font-size: larger;
@@ -531,7 +536,6 @@
                 color: hsl(232, 10%, 55%);
                 gap: 15px;
                 padding-top: 163px;
-                /* padding-bottom: 82px; */
             }
             .texter {
                 font-size: larger;
@@ -544,36 +548,12 @@
             .naming_shade {
                 color: hsl(210, 4%, 67%);
             }
-            imaging_fotter {
-                width: 100%;
-                display: inline-block;
-            }
             .image1_cont {
                 width: 50%;
             }
             .image2_cont {
                 width: 50%;
             }
-            /* .imaging_fotter {
-                width: 100%;
-                object-fit: contain;
-            } */
-            /* .img1 {
-                width: 100%;
-                object-fit: contain;
-            }
-            .img2 {
-                width: 100%;
-                object-fit: contain;
-            }
-            .img3 {
-                width: 100%;
-                object-fit: contain;
-            }
-            .img4 {
-                width: 100%;
-                object-fit: contain;
-            } */
             .footertext {
                 width: 50%;
                 align-items: center;
@@ -591,6 +571,5 @@
             .imgg {
                 align-items: center;
                 padding-left: 100px;
-                /* padding-right: 50px; */
             }
         }
