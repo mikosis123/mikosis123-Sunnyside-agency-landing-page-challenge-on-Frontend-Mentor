@@ -253,7 +253,7 @@
         .stand_out {
             margin-bottom: 65px;
             padding: 0 20px;
-            align-items: center;
+            /* align-items: center; */
         }
         
         .learnM {
@@ -434,9 +434,15 @@
         }
         
         @media(min-width:920px) {
-            .stand_out,
             .trancform {
-                align-items: unset;
+                text-align: unset;
+            }
+            .stand_out {
+                text-align: unset;
+            }
+            .stand_out,
+            .egg-back p {
+                text-align: unset;
             }
             .creative-abck {
                 background-image: url(./images/desktop/image-header.jpg);
