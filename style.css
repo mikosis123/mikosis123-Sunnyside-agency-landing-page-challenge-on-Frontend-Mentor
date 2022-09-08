@@ -87,10 +87,22 @@
             margin-right: 10%;
             margin-left: 10%;
             width: 80%;
-            height: 308px;
+            height: 350px;
             transform: scale(1, 0);
-            transform-origin: top;
-            transition: transform 400ms ease-in-out;
+            /* transform-origin: t; */
+            /* transition: transform 400ms ease-in-out; */
+        }
+        
+        header nav::before {
+            content: "";
+            margin-left: auto;
+            position: relative;
+            top: -1.5rem;
+            border-width: 0 0 1.5rem 1.5rem;
+            border-style: solid;
+            border-color: white transparent;
+            display: block;
+            width: 0;
         }
         
         nav ul {
@@ -294,8 +306,6 @@
             border: none;
         }
         
-        button::after {}
-        
         .eggimag {
             background-image: url(./images/desktop/image-transform.jpg);
             min-height: 604px;
@@ -333,9 +343,6 @@
             padding-top: 402px;
         }
         
-        .geraphicD p,
-        .photoG p {}
-        
         .photoG {
             background-image: url(./images/mobile/image-photography.jpg);
             min-height: 600px;
@@ -372,6 +379,7 @@
         
         .attribution {
             background-color: #90d4c5;
+            font-size: large;
         }
         
         .rapprfoot {
@@ -445,6 +453,9 @@
         }
         
         @media(min-width:920px) {
+            header nav::before {
+                all: unset;
+            }
             .trancform {
                 text-align: unset;
             }
