@@ -20,8 +20,8 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/bootstrap-mobile-first-workflow-CsPfSbR_dN)
+- Live Site URL: [Add live site URL here]( https://mikosis123.github.io/mikosis123-Sunnyside-agency-landing-page-challenge-on-Frontend-Mentor/)
 
 ## My process
 
